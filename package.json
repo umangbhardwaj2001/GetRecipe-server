@@ -4,9 +4,7 @@
   "description": "prepare dish using leftover ingredients",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon src/server.js",
-    "build": "netlify deploy --prod",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "keywords": [
     "food",
